@@ -1,6 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Sun, Moon, CloudRain, Wind, Zap, Trees, Droplet } from "lucide-react";
+import {
+  Sun,
+  Moon,
+  CloudRain,
+  Wind,
+  Zap,
+  Trees,
+  Droplet,
+  Heart,
+} from "lucide-react";
 
 const colors = [
   { name: "Sunset Orange", value: "#FF4E50", icon: Sun },
@@ -10,6 +19,7 @@ const colors = [
   { name: "Electric Purple", value: "#8E2DE2", icon: Zap },
   { name: "Forest Green", value: "#228B22", icon: Trees },
   { name: "Royal Blue", value: "#4169E1", icon: Droplet },
+  { name: "Deep Pink", value: "#FF1493", icon: Heart },
 ];
 
 const Hooks = () => {
